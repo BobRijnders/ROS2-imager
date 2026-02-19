@@ -1,0 +1,6 @@
+services:
+  ros2:
+    image: ros2_jazzy_base:latest
+    container_name: ros2_env
+    volumes:
+      - ./workspace:/workspace:Z
